@@ -41,6 +41,10 @@ export default {
   width: 80%;
   margin: auto;
 
+  height: 100%;
+
+  padding: 10px;
+
   img {
     height: 100%;
   }

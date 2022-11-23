@@ -1,8 +1,8 @@
 <template>
-  <div>
-        <h1>
-            testmain
-        </h1>
+  <div class="mainDiv">
+        <section class="sec1">
+            <h1>..>Content goes here..</h1>
+        </section>
   </div>
 </template>
 
@@ -12,6 +12,22 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
+.mainDiv {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.sec1 {
+
+    padding: 100px;
+
+    display: flex;
+    justify-content: start;
+
+    width: 80%;
+    margin: auto;
+}
 
 </style>
