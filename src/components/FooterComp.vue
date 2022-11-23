@@ -115,6 +115,7 @@ ul {
 .foot1 {
   background-image: url("../assets/img/footer-bg.jpg");
   color: white;
+  background-size: 100%;
 }
 
 /* .foot1 img {
