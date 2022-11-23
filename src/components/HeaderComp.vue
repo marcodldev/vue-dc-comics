@@ -8,16 +8,16 @@
     <div class="flex alignC">
       <nav >
         <ul class="flex">
-          <li>CHARACTERS</li>
-          <li>COMICS</li>
-          <li>MOVIES</li>
-          <li>TV</li>
-          <li>GAMES</li>
-          <li>COLLECTIBLES</li>
-          <li>VIDEOS</li>
-          <li>FANS</li>
-          <li>NEWS</li>
-          <li>SHOP</li>
+          <li><a href="#">CHARACTERS</a> </li>
+          <li><a href="#">COMICS</a> </li>
+          <li><a href="#">MOVIES</a> </li>
+          <li><a href="#">TV</a> </li>
+          <li><a href="#">GAMES</a> </li>
+          <li><a href="#">COLLECTIBLES</a> </li>
+          <li><a href="#">VIDEOS</a> </li>
+          <li><a href="#">FANS</a> </li>
+          <li><a href="#">NEWS</a> </li>
+          <li><a href="#">SHOP</a> </li>
         </ul>
       </nav>
     </div>
@@ -55,14 +55,28 @@ nav {
 
     ul {
       text-align: center;
+
+        li {
+          margin: 0 10px;
+          padding: 10px;
+          font-weight: bold;
+          
+
+          a {
+            color: black;
+            text-decoration: none;
+
+            &:hover {
+              color: #0282f9;
+
+              
+            }
+          }
+        }
+
     }
   
-    li {
-      margin: 0 10px;
-      padding: 10px;
-      font-weight: bold;
-      
-    }
+
   
 
 
