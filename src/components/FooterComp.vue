@@ -117,6 +117,11 @@ ul {
   color: white;
 }
 
+/* .foot1 img {
+    z-index: ;
+    position: relative;
+} */
+
 .foot2 {
   background-color: #303030;
   padding: 20px;
