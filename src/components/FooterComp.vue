@@ -113,7 +113,7 @@ ul {
 }
 
 .foot1 {
-    background-image: url('http://localhost:8081/img/footer-bg.1b706117.jpg');
+    background-image: url('../assets/img/footer-bg.jpg');
     color: white;
     background-size: 100%;
     position: relative;
@@ -121,19 +121,15 @@ ul {
 }
 
  .foot1 img {
-    z-index: 1;
-    position: absolute;
-    right: 200px;
-    bottom: -42px;
-    height: 35rem;
+
+
+    height: 30rem;
 } 
 
 .foot2 {
     background-color: #303030;
-    position: fixed;
     width: 100%;
     padding: 20px;
-    z-index: 1;
 }
 
 .foot2 img {
