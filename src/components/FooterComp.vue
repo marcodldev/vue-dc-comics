@@ -113,19 +113,27 @@ ul {
 }
 
 .foot1 {
-  background-image: url("../assets/img/footer-bg.jpg");
-  color: white;
-  background-size: 100%;
+    background-image: url('http://localhost:8081/img/footer-bg.1b706117.jpg');
+    color: white;
+    background-size: 100%;
+    position: relative;
+    height: 30rem;
 }
 
-/* .foot1 img {
-    z-index: ;
-    position: relative;
-} */
+ .foot1 img {
+    z-index: 1;
+    position: absolute;
+    right: 200px;
+    bottom: -42px;
+    height: 35rem;
+} 
 
 .foot2 {
-  background-color: #303030;
-  padding: 20px;
+    background-color: #303030;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
 }
 
 .foot2 img {
