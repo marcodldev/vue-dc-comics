@@ -10,7 +10,7 @@
         <ul class="flex">
           <li><a href="#">CHARACTERS</a> </li>
           <li><a href="#">COMICS</a> </li>
-          <li><a href="#">MOVIES</a> </li>
+          <li class="active"><a href="#">MOVIES</a> </li>
           <li><a href="#">TV</a> </li>
           <li><a href="#">GAMES</a> </li>
           <li><a href="#">COLLECTIBLES</a> </li>
@@ -34,6 +34,11 @@ export default {
 
 
 <style lang="scss" scoped>
+
+.active {
+  border-bottom:2px solid #0282f9;
+  color: #0282f9;
+}
 
 .mainDiv {
   justify-content: space-between;
