@@ -2,6 +2,7 @@
   <div class="card">
     <img class="flex" v-bind:src="dettagliFumetto.thumb" :alt="dettagliFumetto.type">
     <h4 class="flex"> {{dettagliFumetto.series}}</h4>
+    
   </div>
 
 </template>
