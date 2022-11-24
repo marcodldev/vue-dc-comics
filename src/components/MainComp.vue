@@ -12,7 +12,7 @@
         />
       </div>
       <div class="">
-        <button class="button btn1">LOAD MORE</button>
+        <button class="button btn1 loadmore">LOAD MORE</button>
       </div>
     </section>
 
@@ -162,6 +162,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.loadmore {
+  margin-top: 30px;
+}
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -203,7 +207,8 @@ export default {
 .sec1 {
   background-color: #1c1c1c;
 
-  padding: 100px;
+  padding-top: 70px;
+  padding-bottom: 44px;
   justify-content: start;
 
   width: 80%;
